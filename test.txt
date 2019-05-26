@@ -1,0 +1,32 @@
+//連想配列
+  map,multimap,unordered_map,unordered_multimap
+
+//bit値
+  bitset
+  
+//要素数固定
+  array
+
+//要素数非固定
+  vector
+
+//先頭、末尾に強い
+  deque,(stack),queue,priority_queue
+          //降順 priority_queue<int> n;
+          //昇順 priotiry_queue<int,vector<int>,grater<int>> n;
+          
+//途中の要素に強い
+  forward_list,list
+  
+//重複を許さない
+  set,multiset,unordered_set,unordered_multiset
+  
+//イテレーター
+  iterator
+  
+//そのほか
+  numeric,algorithm,tuple,木構造,アルゴリズム
+           //二分探索(配列) lower_bound(a,a+n,k) //return i if(a[i]>=k)
+             　　　　  　　 upper_bound(a,a+n,k) //return i if(a[i]>k)
+           //二分探索(STL)  lower_bound(a.begin(),a.end(),k)
+             　　　　       upper_bound(a.begin(),a.end(),k)
